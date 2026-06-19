@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: "Quicksand", sans-serif;
+    --secondary-font: "Lato", sans-serif;
+    --card-border-radius: 15px;
+    --sections-border-radius: 10px;
+    --card-border: #ECECEC;
+    --primary-color-green: #3BB77E;
+    --light-green-color-bg: #DEF9EC;
+    --cards-highlights-color: #29A56C;
+    --cards-highlight-blue: #67BCEE;
+    --category-card-background: #F4F6FA;
+    --small-p-color: #7E7E7E;
+    --body-p-color: #253D4E;
+    --card-small-p: #ADADAD;
+    --sub-heading-underline: #BCE3C9;
+}
+
+button,
+a, select {
+    all: unset;
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.main-container {
+    max-width: 1630px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.hero-heading {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.nav-items {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.small-body-p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: var(--small-p-color);
+}
+
+.top-bar-banner-text {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0%;
+    color: var(--primary-color-green);
+}
+
+.buttons-text {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.5px;
+}
+
+/* top info bar  */
+.top-info-bar{
+    padding: 10px 0;
+    border-bottom: 1px solid var(--card-border);
+}
+.top-info-bar-buttons div, .top-info-bar-contact div{
+    padding: 0 9px;
+    border-right: 1px solid #DEDFE2;
+}
+.top-info-bar>div{
+    justify-content: space-between;
+}
+.top-info-bar-contact{
+
+}
