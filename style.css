@@ -22,7 +22,8 @@
 }
 
 button,
-a, select {
+a,
+select {
     all: unset;
     cursor: pointer;
 }
@@ -94,17 +95,51 @@ ul li {
 }
 
 /* top info bar  */
-.top-info-bar{
+.top-info-bar {
     padding: 10px 0;
     border-bottom: 1px solid var(--card-border);
 }
-.top-info-bar-buttons div, .top-info-bar-contact div{
+
+.top-info-bar-buttons div,
+.top-info-bar-contact div {
     padding: 0 9px;
     border-right: 1px solid #DEDFE2;
 }
-.top-info-bar>div{
+
+.top-info-bar>div {
     justify-content: space-between;
 }
-.top-info-bar-contact{
 
+.top-info-bar-contact {}
+
+
+/* category -card  */
+.category-card {
+    min-height: 180px;
+    border-radius: var(--sections-border-radius);
+    background-color: rgba(254, 239, 234, 1);
+    border: 1px solid rgba(244, 246, 250, 1);
+    padding: 21px 0 19px 0;
+    flex-direction: column;
+    text-align: center;
+}
+/* .banner-card {
+    width: 100%;
+    max-width: 516px;
+    min-height: 302px;
+    border-radius: var(--sections-border-radius);
+    background-image: url('assets/onion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+.banner-card {
+    width: 100%;
+    max-width: 516px;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--sections-border-radius);
+    background-image: url('assets/onion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
